@@ -50,7 +50,7 @@ color: rgba(255, 255,255, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #1a191d;
+    color: rgb(218, 218, 218);
     font-size: 1.5em;
 }
 
@@ -66,6 +66,7 @@ color: rgba(255, 255,255, 1);
     width: 80px;
     height: 100%;
     z-index: 1;
+    /* üst üste gelen iki obje arasındaki yükseklik */
     background: rgba(60, 83, 106, 0.25);
     transform: translateX(-170px) skewX(30deg);
     transition: 0.75s ease-in-out;
